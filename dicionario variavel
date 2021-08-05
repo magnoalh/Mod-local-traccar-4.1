@@ -1,4 +1,4 @@
-arquivo app.min.js
+arquivo app.min.js - MOD traccar 4.11
 _0x13d782 = precision
 _0x2740ba = suffix
 _0x3df450 = value
@@ -33,3 +33,13 @@ _0x5c2182(0x9d4) = normalPadding
 _0x34e32c(0x957) = innerHeight
 _0x34e32c(0x906) = Style
 _0x34e32c(0x9d4) = normalPadding
+
+arquivo app.min.js - MOD Traccar 4.1 
+_0xc11a('0x6')['split'](' ') = '#F06292 #BA68C8 #4DD0E1 #4DB6AC #FF8A65 #A1887F'.split(' ')
+_0xc11a('0x5') = 'd/m/Y'
+_0xc11a('0x4') = 'g:i a'
+_0xc11a('0x3') = 'H:i'
+_0xc11a('0x2') = 'd/m/Y H:i:s'
+_0xc11a('0x0') = define
+_0xc11a('0x1') = 'Traccar.Style'
+
