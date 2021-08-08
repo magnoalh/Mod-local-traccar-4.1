@@ -53,6 +53,7 @@ _0x8514c4 = chartTypesStore
 _0x20a3c0 , _0x229098 = i
 _0x394b84 = data
 _0x96dfd8 = attribute
+_0x1d822c = attributesList
 
 _0xc11a('0x0') = define
 _0xc11a('0x1') = Traccar.Style
