@@ -1,4 +1,21 @@
-                var _0x2377=['getElementById','loadScript','mode','debug','ontouchstart','maxTouchPoints','Български','বাংলা','Deutsch','Ελληνικά','English','Suomi','Français','עברית','हिन्दी','Hrvatski','Magyar','Bahasa\x20Indonesia','Italiano','日本語','ქართული','Қазақша','한국어','ភាសាខ្មែរ','ລາວ','Lietuvių','മലയാളം','بهاس\x20ملايو','Norsk\x20bokmål','no_NB','नेपाली','Nederlands','Norsk\x20nynorsk','no_NN','Polski','Português','Português\x20(Brasil)','pt_BR','Русский','සිංහල','Slovenčina','Slovenščina','Shqipëria','Srpski','Svenska','ไทย','Українська','Oʻzbekcha','Tiếng\x20Việt','zh_CN','中文\x20(Taiwan)','search','match','language','languages','navigator','slice','userLanguage','push','substr','length','replace','addEventListener','load','request','.json','Strings','decode','responseText','hasOwnProperty','app.min.js','app.js','userAgent','indexOf','Android','__defineGetter__','6.2.0','5.2.0','4.6.5','2.4.4','//cdnjs.cloudflare.com/ajax/libs/extjs/','/packages/charts/classic/charts.js','/classic/locale/locale-','code','.js','/classic/theme-triton/resources/theme-triton-all.css','/classic/theme-triton/theme-triton.js','/packages/charts/classic/triton/resources/charts-all.css','//cdnjs.cloudflare.com/ajax/libs/ol3/','/ol.css','/ol.js','//cdnjs.cloudflare.com/ajax/libs/proj4js/','/proj4.js','//cdn.rawgit.com/walkermatt/ol-popup/494a42c0/dist/ol-popup.js','//cdn.rawgit.com/jonataswalker/ol-geocoder/54b23aea/dist/ol-geocoder.js','config/layerswitcher/src/ol3-layerswitcher.js','//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js','Images','arrow','animal','bicycle','boat','bus','car','crane','motorcycle','offroad','pickup','ship','tractor','train','tram','trolleybus','truck','images/','Svg','createElement','link','setAttribute','stylesheet','type','text/css','href','head','appendChild','script','async','object','image/svg+xml','visibility:hidden;position:absolute;left:-100px;','body'];
+                var _0x2377=['getElementById','loadScript','mode','debug','ontouchstart','maxTouchPoints','Български',
+'বাংলা','Deutsch','Ελληνικά','English','Suomi','Français','עברית','हिन्दी','Hrvatski','Magyar',
+'Bahasa\x20Indonesia','Italiano','日本語','ქართული','Қазақша','한국어','ភាសាខ្មែរ','ລາວ',
+'Lietuvių','മലയാളം','بهاس\x20ملايو','Norsk\x20bokmål','no_NB','नेपाली','Nederlands',
+'Norsk\x20nynorsk','no_NN','Polski','Português','Português\x20(Brasil)','pt_BR','Русский',
+'සිංහල','Slovenčina','Slovenščina','Shqipëria','Srpski','Svenska','ไทย','Українська','Oʻzbekcha',
+'Tiếng\x20Việt','zh_CN','中文\x20(Taiwan)','search','match','language','languages','navigator','slice','userLanguage','push','substr',
+'length','replace','addEventListener','load','request','.json','Strings','decode','responseText',
+'hasOwnProperty','app.min.js','app.js','userAgent','indexOf','Android','__defineGetter__',
+'6.2.0','5.2.0','4.6.5','2.4.4','//cdnjs.cloudflare.com/ajax/libs/extjs/','/packages/charts/classic/charts.js',
+'/classic/locale/locale-','code','.js','/classic/theme-triton/resources/theme-triton-all.css',
+'/classic/theme-triton/theme-triton.js','/packages/charts/classic/triton/resources/charts-all.css',
+'//cdnjs.cloudflare.com/ajax/libs/ol3/','/ol.css','/ol.js','//cdnjs.cloudflare.com/ajax/libs/proj4js/','/proj4.js',
+'//cdn.rawgit.com/walkermatt/ol-popup/494a42c0/dist/ol-popup.js',
+'//cdn.rawgit.com/jonataswalker/ol-geocoder/54b23aea/dist/ol-geocoder.js','config/layerswitcher/src/ol3-layerswitcher.js',
+'//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js','Images','arrow','animal','bicycle','boat','bus','car','crane','motorcycle','offroad','pickup','ship',
+'tractor','train','tram','trolleybus','truck','images/','Svg',
+'createElement','link','setAttribute','stylesheet','type','text/css','href','head','appendChild','script','async','object','image/svg+xml','visibility:hidden;position:absolute;left:-100px;','body'];
                     (function(_0x182d32,_0x56092f){
                         var _0x4da8e4=function(_0x378548){
                             while(--_0x378548){
@@ -12,27 +29,30 @@
                                 return _0x2fac6d;
                             };
                             (function(){
-                                var _0x3d59d7,_0x2cb499,_0x22fa9a,_0x25a97c,_0x1fda5d,_0x2762d5,_0x43d660,_0x134ddf,_0x25b8a6,_0x45106c,_0x5ab82d,_0x255c2f;
+                                var _0x3d59d7,_0x2cb499,_0x22fa9a,_0x25a97c,_0x1fda5d,_0x2762d5,_0x43d660,_0x134ddf,_0x25b8a6,
+_0x45106c,_0x5ab82d,_0x255c2f;
                                 function addStyleFile(_0x5c70cd){
-                                    var _0x354d6e=document[_0x3254('0x0')](_0x3254('0x1'));
-                                    _0x354d6e[_0x3254('0x2')]('rel',_0x3254('0x3'));
-                                    _0x354d6e[_0x3254('0x2')](_0x3254('0x4'),_0x3254('0x5'));
-                                    _0x354d6e[_0x3254('0x2')](_0x3254('0x6'),_0x5c70cd);
-                                    document[_0x3254('0x7')][_0x3254('0x8')](_0x354d6e);
+                                   var link = document.createElement('link');
+
+  link.setAttribute('rel', 'stylesheet');
+        link.setAttribute('type', 'text/css');
+        link.setAttribute('href', file);
+        document.head.appendChild(link);
+
                                 }
                                 function addScriptFile(_0x1ee03a){
-                                    var _0x13a870=document[_0x3254('0x0')](_0x3254('0x9'));
-                                    _0x13a870[_0x3254('0x2')]('src',_0x1ee03a);
-                                    _0x13a870[_0x3254('0xa')]=![];
-                                    document[_0x3254('0x7')][_0x3254('0x8')](_0x13a870);
+                                    var _0x13a870=document['createElement']('script');
+                                    _0x13a870['setAttribute']('src',_0x1ee03a);
+                                    _0x13a870['async']=![];
+                                    document['head']['appendChild'](_0x13a870);
                                 }
                                 function _0x3e99f5(_0x2f9be7,_0x5201ae){
-                                    var _0x6283be=document[_0x3254('0x0')](_0x3254('0xb'));
-                                    _0x6283be[_0x3254('0x2')]('id',_0x5201ae);
-                                    _0x6283be[_0x3254('0x2')]('data',_0x2f9be7);
-                                    _0x6283be['setAttribute'](_0x3254('0x4'),_0x3254('0xc'));
-                                    _0x6283be[_0x3254('0x2')]('style',_0x3254('0xd'));
-                                    document[_0x3254('0xe')][_0x3254('0x8')](_0x6283be);
+                                    var _0x6283be=document['createElement']('object');
+                                    _0x6283be['setAttribute']('id',_0x5201ae);
+                                    _0x6283be['setAttribute']('data',_0x2f9be7);
+                                    _0x6283be['setAttribute']('type','image/svg+xml');
+                                    _0x6283be['setAttribute']('style','visibility:hidden;position:absolute;left:-100px;');
+                                    document['body']['appendChild'](_0x6283be);
                                 }
                                 _0x3d59d7=document[_0x3254('0xf')](_0x3254('0x10'))['getAttribute'](_0x3254('0x11'))===_0x3254('0x12');
                                 _0x2cb499=_0x3254('0x13')in window||navigator[_0x3254('0x14')];
