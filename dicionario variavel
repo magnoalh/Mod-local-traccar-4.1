@@ -36,6 +36,9 @@ _0x34e32c(0x9d4) = normalPadding
 
 arquivo app.min.js - MOD Traccar 4.1 
 
+_0x2bd4b7 = e
+_0x1e3865 = field
+_0x5b5dab = field
 _0x557c84 = prefix
 _0x38084b = url
 !0x0 = !0
@@ -1941,10 +1944,80 @@ _0xc11a('0x751') = statistics
 _0xc11a('0x752') = reportFrom
 _0xc11a('0x753') = statisticsCaptureTime
 
-
+'captureTime',
+    'statisticsActiveUsers',
+    'statisticsActiveDevices',
+    'statisticsRequests', 'statisticsMessagesReceived', 'messagesStored', 'statisticsGeocoder', 'geocoderRequests', 'statisticsGeolocation', 'controller.deviceDistance', 'api/devices/', '/distance', 'deviceDistance', 'setButton', 'sharedSet', 'onSetClick', 'Traccar.view.dialog.CalendarController', 'controller.calendar', 'files', 'onload', 'dataField', 'target', 'onerror', 'error', 'fileInputEl', 'Traccar.view.dialog.Calendar', 'calendar', 'filefield', 'file', 'sharedFile', 'sharedSelectFile', 'onFileChange', 'Traccar.view.edit.CalendarsController', 'controller.calendars', 'Traccar.view.edit.Calendars', 'calendarsView', 'calendars', 'Traccar.view.dialog.SavedCommand', 'savedCommand', 'sharedSavedCommand', 'Traccar.view.edit.SavedCommandsController', 'controller.savedCommands', 'Traccar.view.edit.SavedCommands', 'savedCommandsView', 'savedCommands', 'startField', 'initialConfig', 'startConfig', 'periodConfig', 'merge', 'updateFieldConfig', 'onNameChange', 'Traccar.view.edit.MaintenancesController', 'controller.maintenances', 'maintenancesView', 'maintenances', 'controller.settings', 'settingsServerButton', 'settingsUsersButton', 'settingsUserButton', 'settingsGroupsButton', 'settingsGeofencesButton', 'settingsNotificationsButton', 'settingsDriversButton', 'settingsCommandsButton', 'settingsComputedAttributesButton', 'groupsView', 'Traccar.view.dialog.Server', 'getServer', 'logout', 'Traccar.view.SettingsMenu', 'settingsMenu',
+    'settings', 'xf007@FontAwesome', 'onGroupsClick', 'settingsServer', 'xf233@FontAwesome', 'onUsersClick', 'xf080@FontAwesome', 'onStatisticsClick', 'settingsStatisticsButton',
+    'settingsMaintenancesButton', 'loginLogout', 'xf08b@FontAwesome', 'Traccar.view.MegaMenuController', 'controller.settingsMegaMenu', 'settingsCalendarsButton', 'contactWhatsMegaMenu',
+    'showReportsButton', 'showEventsButton', 'ui.disableEvents', 'statisticsTitle', 
+    _0xc11a('0x7b0') = 'showEvents', 
+    _0xc11a('0x7b1') = '../../config/config.json', 
+    _0xc11a('0x7b2') = 'Traccar.view.MegaMenu', 
+    _0xc11a('0x7b3') = 'Menu', 
+    _0xc11a('0x7b4') = 'settingsMegaMenu',
+    _0xc11a('0x7b5') = 'xf0f6@FontAwesome', 
+    _0xc11a('0x7b6') = 'xf27b@FontAwesome', 
+    _0xc11a('0x7b7') = 'xf247@FontAwesome', 
+    _0xc11a('0x7b8') = 'onServerClick', 
+    _0xc11a('0x7b9') = 'Pagamento', 
+    _0xc11a('0x7ba') = 'xf0d6@FontAwesome', 
+    _0xc11a('0x7bb') = 'settingsonPagamento', 
+    _0xc11a('0x7bc') = 'Suporte', 
+    _0xc11a('0x7bd') = 'xf232@FontAwesome',
+_0xc11a('0x7be') = 'onLogoutClick', 
+_0xc11a('0x7bf') = 'Traccar.view.map.Map', 
+_0xc11a('0x7c0') = 'mapTitle', 
+_0xc11a('0x7c1') = 'toggle', 
+_0xc11a('0x7c2') = 'show-geofences-button', 
+_0xc11a('0x7c3') = 'showLiveRoutes', 
+_0xc11a('0x7c4') = 'xf1b0@FontAwesome', 
+_0xc11a('0x7c5') = 'show-live-routes-button',
+_0xc11a('0x7c6') = 'deviceFollowButton', 
+_0xc11a('0x7c7') = 'xf05b@FontAwesome', 
+_0xc11a('0x7c8') = 'deviceFollow', 
+_0xc11a('0x7c9') = 'device-follow-button', 
+_0xc11a('0x7ca') = 'streetViewButton', 
+_0xc11a('0x7cb') = 'streetview-button'
+_0xc11a('0x7cc') = 'contactWhats', 
+_0xc11a('0x7cd') = 'device-street-button',
+_0xc11a('0x7ce') = 'contactClick', 
+_0xc11a('0x7cf') = 'device-Pagamento-button', 
+_0xc11a('0x7d0') = 'pgClick', 
+_0xc11a('0x7d1') = 'megaMenu', 
+_0xc11a('0x7d2') = 'markersSource', 
+_0xc11a('0x7d3') = 'accuracySource', 
+_0xc11a('0x7d4') = 'routeSource',
+_0xc11a('0x7d5') = 'geofencesSource', 
+_0xc11a('0x7d6') = 'liveRouteSource', 
+_0xc11a('0x7d7') = 'addLayer', 
+_0xc11a('0x7d8') = 'geofencesLayer' 
+_0xc11a('0x7d9') = 'liveRouteLayer'
+_0xc11a('0x7da') = accuracyLayer
+_0xc11a('0x7db') = Traccar.view.Main
 _0xc11a('0x7dc') = container
-_0xc11a('0x7dd') = 
+_0xc11a('0x7dd') = Viewport
 _0xc11a('0x7de') = widget.main
+_0xc11a('0x7df') = mainController
+_0xc11a('0x7e0') = border
+_0xc11a('0x7e1') = deviceWidth
+_0xc11a('0x7e2') = center
+_0xc11a('0x7e3') = south
+_0xc11a('0x7e4') = stateView
+_0xc11a('0x7e5') = east
+_0xc11a('0x7e6') = widget.mainMobile
+_0xc11a('0x7e7') = rootPanel
+_0xc11a('0x7e8') = mini
+_0xc11a('0x7e9') = mobile-state-grid
+_0xc11a('0x7ea') = mobile-devices-grid
+_0xc11a('0x7eb') = 'Traccar.controller.Root', 
+_0xc11a('0x7ec') = 'Controller', 
+_0xc11a('0x7ed') = 'controller.root',
+_0xc11a('0x7ee') = popup
+_0xc11a('0x7ef') = 'popup-closer', 
+_0xc11a('0x7f0') = 'commands-buttons', 
+_0xc11a('0x7f1') = 'onclick', 
+_0xc11a('0x7f2') = 'blur',
 _0xc11a('0x7f3') = Manager 
 _0xc11a('0x7f4') = setProvider
 _0xc11a('0x7f5') = CookieProvider
