@@ -1,7 +1,28 @@
 _0x290183 = addStyleFile
 _0x4c8cc5 = addScriptFile
-_0x5c70cd = file
+_0x5c70cd ou _0x1ee03a ou _0x2f9be7 = file
 _0x354d6e = link
+_0x3d59d7 = debugMode, 
+    _0x2cb499 = touchMode, 
+    _0x22fa9a = locale, 
+    _0x25a97c = localeParameter, 
+    _0x1fda5d = extjsVersion, 
+    _0x2762d5 = proj4jsVersion , 
+    _0x43d660 = fontAwesomeVersion, 
+    _0x134ddf = olVersion , 
+    _0x25b8a6 = i
+    _0x45106c = language, 
+    _0x5ab82d = languages, 
+    _0x255c2f = languageDefault
+    _0x13a870 = script
+    _0x3e99f5 = addSvgFile
+    _0x6283be = svg
+    _0x5b81a7 = event
+    _0x38eec1 = options
+    _0x5c6495 = success
+    _0xe9f2f1 = response
+    _0x18197c = key
+    _0x49ec62 = data
 
 _0x3254('0x0') = 'createElement'
 _0x3254('0x1') = 'link'
@@ -18,3 +39,79 @@ _0x3254('0xb') = 'object'
 _0x3254('0xc') = 'image/svg+xml'
 _0x3254('0xd') = 'visibility:hidden;position:absolute;left:-100px;'
 _0x3254('0xe') = 'body'
+_0x3254('0xf') = 'getElementById'
+_0x3254('0x10') = 'loadScript'
+_0x3254('0x11') = 'mode'
+_0x3254('0x12') = 'debug'
+_0x3254('0x13') = 'ontouchstart'
+_0x3254('0x14') = 'maxTouchPoints'
+_0x3254('0x15') = 'Български',
+_0x3254('0x16') = 'বাংলা',
+17'Deutsch', 
+18'Ελληνικά', 
+19'English', 
+1a'Suomi', 
+1b'Français', 
+1c'עברית', 
+1d'हिन्दी', 
+1e'Hrvatski', 
+1f'Magyar',
+20'Bahasa\x20Indonesia', 
+21'Italiano', 
+22'日本語', 
+23'ქართული', 
+24'Қазақша', 
+25'한국어', 
+26'ភាសាខ្មែរ', 
+27'ລາວ',
+28'Lietuvių', 
+29'മലയാളം', 
+2a'بهاس\x20ملايو', 
+2b'Norsk\x20bokmål', 
+2c'no_NB', 
+2d'नेपाली', 
+2e'Nederlands',
+2f'Norsk\x20nynorsk',
+30'no_NN', 
+31'Polski', 
+32'Português', 
+33'Português\x20(Brasil)', 
+34'pt_BR', 
+35'Русский',
+36'සිංහල', 
+37'Slovenčina', 
+38'Slovenščina', 
+39'Shqipëria', 
+3a'Srpski', 
+3b'Svenska', 
+3c'ไทย', 
+3d'Українська', 
+3e'Oʻzbekcha',
+3f'Tiếng\x20Việt', 
+40'zh_CN', 
+41'中文\x20(Taiwan)', 
+_0x3254('0x42') = 'search', 
+_0x3254('0x43') = 'match', 
+_0x3254('0x44') = 'language', 
+_0x3254('0x45') = 'languages', 
+_0x3254('0x46') = 'navigator', 
+_0x3254('0x47') = 'slice', 
+_0x3254('0x48') = 'userLanguage', 
+_0x3254('0x49') = 'push', 
+_0x3254('0x4a') = 'substr',
+_0x3254('0x4b') = 'length', 
+_0x3254('0x4c') = 'replace', 
+_0x3254('0x4d') = 'addEventListener', 
+_0x3254('0x4e') = 'load', 
+_0x3254('0x4f') = 'request', 
+_0x3254('0x50') = '.json', 
+_0x3254('0x51') = 'Strings', 
+_0x3254('0x52') = 'decode', 
+_0x3254('0x53') = 'responseText',
+_0x3254('0x54') = 'hasOwnProperty', 
+_0x3254('0x55') = 'app.min.js', 
+_0x3254('0x56') = 'app.js', 
+_0x3254('0x57') = 'userAgent', 
+_0x3254('0x58') = 'indexOf', 
+_0x3254('0x59') = 'Android', 
+_0x3254('0x5a') = '__defineGetter__',
