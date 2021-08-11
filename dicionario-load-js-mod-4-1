@@ -23,6 +23,7 @@ _0x3d59d7 = debugMode,
     _0xe9f2f1 = response
     _0x18197c = key
     _0x49ec62 = data
+    _0x48ff40 = __originalUserAgent
 
 _0x3254('0x0') = 'createElement'
 _0x3254('0x1') = 'link'
