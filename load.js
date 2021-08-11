@@ -1,12 +1,4 @@
-var _0x2377 = [
-    '6.2.0', '5.2.0', '4.6.5', '2.4.4', '//cdnjs.cloudflare.com/ajax/libs/extjs/', '/packages/charts/classic/charts.js',
-    '/classic/locale/locale-', 'code', '.js', '/classic/theme-triton/resources/theme-triton-all.css',
-    '/classic/theme-triton/theme-triton.js', '/packages/charts/classic/triton/resources/charts-all.css',
-    '//cdnjs.cloudflare.com/ajax/libs/ol3/', '/ol.css', '/ol.js', '//cdnjs.cloudflare.com/ajax/libs/proj4js/', '/proj4.js',
-    '//cdn.rawgit.com/walkermatt/ol-popup/494a42c0/dist/ol-popup.js',
-    '//cdn.rawgit.com/jonataswalker/ol-geocoder/54b23aea/dist/ol-geocoder.js', 'config/layerswitcher/src/ol3-layerswitcher.js',
-    '//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js', 'Images', 'arrow', 'animal', 'bicycle', 'boat', 'bus', 'car', 'crane', 'motorcycle', 'offroad', 'pickup', 'ship',
-    'tractor', 'train', 'tram', 'trolleybus', 'truck', 'images/', 'Svg'];
+
 (function (_0x182d32, _0x56092f) {
     var _0x4da8e4 = function (_0x378548) {
         while (--_0x378548) {
@@ -162,41 +154,71 @@ var _0x3254 = function (_0x4f161a, _0x2cd6d3) {
             }
         });
     });
-    if (navigator[_0x3254('0x57')][_0x3254('0x58')](_0x3254('0x59')) !== -0x1 && navigator[_0x3254('0x57')][_0x3254('0x58')]('OPR') !== -0x1) {
-        var _0x48ff40 = navigator['userAgent'];
-        navigator[_0x3254('0x5a')](_0x3254('0x57'), function () {
-            return _0x48ff40['replace'](/\/OPR[^)]*/g, '');
-        });
-    } extjsVersion = _0x3254('0x5b');
-    fontAwesomeVersion = _0x3254('0x5c'); olVersion = _0x3254('0x5d');
-    proj4jsVersion = _0x3254('0x5e');
-    if (debugMode) { } else {
+      // Hack for new versions of Android
+      if (navigator.userAgent.indexOf('Android') !== -1 && navigator.userAgent.indexOf('OPR') !== -1) {
+        var __originalUserAgent = navigator.userAgent;
+        navigator.__defineGetter__('userAgent', function () { return __originalUserAgent.replace(/\/OPR[^)]*/g, ''); });
+    }
+
+    extjsVersion = '6.2.0';
+    fontAwesomeVersion = '5.2.0';
+    olVersion = '4.6.5';
+    proj4jsVersion = '2.4.4';
+
+    if (debugMode) {
+        addScriptFile('//cdnjs.cloudflare.com/ajax/libs/extjs/' + extjsVersion + '/ext-all-debug.js');
+        addScriptFile('//cdnjs.cloudflare.com/ajax/libs/extjs/' + extjsVersion + '/packages/charts/classic/charts-debug.js');
+    } else {
+        //addScriptFile('//cdnjs.cloudflare.com/ajax/libs/extjs/' + extjsVersion + '/ext-all.js');
+        //addScriptFile('//cdnjs.cloudflare.com/ajax/libs/extjs/' + extjsVersion + '/packages/charts/classic/charts.js');
         addScriptFile('config/library/js/ext-all.js');
         addScriptFile('config/library/js/charts.js');
     }
-    addScriptFile(_0x3254('0x5f') + extjsVersion + _0x3254('0x61') + locale['languages'][locale['language']][_0x3254('0x62')] + _0x3254('0x63'));
+
+
+    addScriptFile('//cdnjs.cloudflare.com/ajax/libs/extjs/' + extjsVersion + '/classic/locale/locale-' + locale.languages[locale.language].code + '.js');
+
+    //addStyleFile('//cdnjs.cloudflare.com/ajax/libs/extjs/' + extjsVersion + '/classic/theme-triton/resources/theme-triton-all.css');
+    //addScriptFile('//cdnjs.cloudflare.com/ajax/libs/extjs/' + extjsVersion + '/classic/theme-triton/theme-triton.js');
+    //addStyleFile('//cdnjs.cloudflare.com/ajax/libs/extjs/' + extjsVersion + '/packages/charts/classic/triton/resources/charts-all.css');
+
     addStyleFile('config/library/css/theme-triton-all.css');
     addScriptFile('config/library/js/theme-triton.js');
     addStyleFile('config/library/css/charts-all.css');
     addStyleFile('config/library/css/all.css');
-    addStyleFile(_0x3254('0x67') + olVersion + _0x3254('0x68'));
-    if (debugMode) { } else {
-        addScriptFile(_0x3254('0x67') + olVersion + _0x3254('0x69'));
+
+    addStyleFile('//cdnjs.cloudflare.com/ajax/libs/ol3/' + olVersion + '/ol.css');
+    if (debugMode) {
+        addScriptFile('//cdnjs.cloudflare.com/ajax/libs/ol3/' + olVersion + '/ol-debug.js');
+    } else {
+        addScriptFile('//cdnjs.cloudflare.com/ajax/libs/ol3/' + olVersion + '/ol.js');
     }
-    if (debugMode) { }
-    else {
-        addScriptFile(_0x3254('0x6a') + proj4jsVersion + _0x3254('0x6b'));
+
+    if (debugMode) {
+        addScriptFile('//cdnjs.cloudflare.com/ajax/libs/proj4js/' + proj4jsVersion + '/proj4-src.js');
+    } else {
+        addScriptFile('//cdnjs.cloudflare.com/ajax/libs/proj4js/' + proj4jsVersion + '/proj4.js');
     }
+
+
+   
+    //conferir essa linha aqui
+    
     addStyleFile('config/library/css/ol-geocoder.min.css');
     addStyleFile('config/library/css/ol-popup.css');
-    addScriptFile(_0x3254('0x6c'));
-    addScriptFile(_0x3254('0x6d'));
-    addScriptFile(_0x3254('0x6e'));
-    addScriptFile(_0x3254('0x6f'));
-    window[_0x3254('0x70')] = [_0x3254('0x71'), 'default', _0x3254('0x72'), _0x3254('0x73'), _0x3254('0x74'), _0x3254('0x75'), _0x3254('0x76'), _0x3254('0x77'), 'helicopter', _0x3254('0x78'), _0x3254('0x79'), 'person', _0x3254('0x7a'), 'plane', _0x3254('0x7b'), _0x3254('0x7c'), _0x3254('0x7d'), _0x3254('0x7e'), _0x3254('0x7f'), _0x3254('0x80'), 'van'];
-    for (i = 0x0;
-        i < window[_0x3254('0x70')]['length'];
-        i++) {
-        addSvgFile(_0x3254('0x81') + window[_0x3254('0x70')][i] + '.svg', window[_0x3254('0x70')][i] + _0x3254('0x82'));
+    //addScriptFile('//cdn.rawgit.com/walkermatt/ol-popup/494a42c0/dist/ol-popup.js');
+    addScriptFile('config/js/ol-popup/ol-popup.js');
+    //addScriptFile('//cdn.rawgit.com/jonataswalker/ol-geocoder/54b23aea/dist/ol-geocoder.js');
+    addScriptFile('config/js/ol-geocoder.js');
+    addScriptFile('config/layerswitcher/src/ol3-layerswitcher.js');
+    addScriptFile('//cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js');
+
+    //ate aqui 
+
+    window.Images = ['arrow', 'default', 'animal', 'bicycle', 'boat', 'bus', 'car', 'crane', 'helicopter', 'motorcycle',
+        'offroad', 'person', 'pickup', 'plane', 'ship', 'tractor', 'train', 'tram', 'trolleybus', 'truck', 'van'];
+
+    for (i = 0; i < window.Images.length; i++) {
+        addSvgFile('images/' + window.Images[i] + '.svg', window.Images[i] + 'Svg');
     }
-}());
+})();
