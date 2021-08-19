@@ -1,18 +1,4 @@
 
-(function (_0x182d32, _0x56092f) {
-    var _0x4da8e4 = function (_0x378548) {
-        while (--_0x378548) {
-            _0x182d32['push'](_0x182d32['shift']());
-        }
-    };
-    _0x4da8e4(++_0x56092f);
-}
-    (_0x2377, 0x17a));
-var _0x3254 = function (_0x4f161a, _0x2cd6d3) {
-    _0x4f161a = _0x4f161a - 0x0;
-    var _0x2fac6d = _0x2377[_0x4f161a];
-    return _0x2fac6d;
-};
 (function () {
 
     var debugMode, touchMode, locale, localeParameter, extjsVersion, proj4jsVersion, fontAwesomeVersion, olVersion, i, language, languages, languageDefault;
