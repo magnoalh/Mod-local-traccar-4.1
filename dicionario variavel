@@ -1944,13 +1944,19 @@ _0xc11a('0x751') = statistics
 _0xc11a('0x752') = reportFrom
 _0xc11a('0x753') = statisticsCaptureTime
 
-'captureTime',
-    'statisticsActiveUsers',
-    'statisticsActiveDevices',
-    'statisticsRequests', 'statisticsMessagesReceived', 'messagesStored', 'statisticsGeocoder', 'geocoderRequests', 'statisticsGeolocation', 'controller.deviceDistance', 'api/devices/', '/distance', 'deviceDistance', 'setButton', 'sharedSet', 'onSetClick', 'Traccar.view.dialog.CalendarController', 'controller.calendar', 'files', 'onload', 'dataField', 'target', 'onerror', 'error', 'fileInputEl', 'Traccar.view.dialog.Calendar', 'calendar', 'filefield', 'file', 'sharedFile', 'sharedSelectFile', 'onFileChange', 'Traccar.view.edit.CalendarsController', 'controller.calendars', 'Traccar.view.edit.Calendars', 'calendarsView', 'calendars', 'Traccar.view.dialog.SavedCommand', 'savedCommand', 'sharedSavedCommand', 'Traccar.view.edit.SavedCommandsController', 'controller.savedCommands', 'Traccar.view.edit.SavedCommands', 'savedCommandsView', 'savedCommands', 'startField', 'initialConfig', 'startConfig', 'periodConfig', 'merge', 'updateFieldConfig', 'onNameChange', 'Traccar.view.edit.MaintenancesController', 'controller.maintenances', 'maintenancesView', 'maintenances', 'controller.settings', 'settingsServerButton', 'settingsUsersButton', 'settingsUserButton', 'settingsGroupsButton', 'settingsGeofencesButton', 'settingsNotificationsButton', 'settingsDriversButton', 'settingsCommandsButton', 'settingsComputedAttributesButton', 'groupsView', 'Traccar.view.dialog.Server', 'getServer', 'logout', 'Traccar.view.SettingsMenu', 'settingsMenu',
-    'settings', 'xf007@FontAwesome', 'onGroupsClick', 'settingsServer', 'xf233@FontAwesome', 'onUsersClick', 'xf080@FontAwesome', 'onStatisticsClick', 'settingsStatisticsButton',
-    'settingsMaintenancesButton', 'loginLogout', 'xf08b@FontAwesome', 'Traccar.view.MegaMenuController', 'controller.settingsMegaMenu', 'settingsCalendarsButton', 'contactWhatsMegaMenu',
-    'showReportsButton', 'showEventsButton', 'ui.disableEvents', 'statisticsTitle', 
+
+_0xc11a('0x785') = merge
+_0xc11a('0x786') = updateFieldConfig
+_0xc11a('0x787') = onNameChange
+_0xc11a('0x788') = Traccar.view.edit.MaintenancesController
+_0xc11a('0x789') = controller.maintenances
+_0xc11a('0x78a') = maintenancesView
+_0xc11a('0x78b') = maintenances
+_0xc11a('0x78c') = controller.settings
+_0xc11a('0x78d') = settingsServerButton
+_0xc11a('0x78e') = settingsUsersButton
+_0xc11a('0x78f') = settingsUserButton
+
     _0xc11a('0x7b0') = 'showEvents', 
     _0xc11a('0x7b1') = '../../config/config.json', 
     _0xc11a('0x7b2') = 'Traccar.view.MegaMenu', 
@@ -2022,7 +2028,12 @@ _0xc11a('0x7f3') = Manager
 _0xc11a('0x7f4') = setProvider
 _0xc11a('0x7f5') = CookieProvider
 _0xc11a('0x7f6') = addFields
+_0xc11a('0x7f7') = getAttributeConverter
+_0xc11a('0x7f8') = attributeKey
+_0xc11a('0x7f9') = setServer
 _0xc11a('0x7fa') = fromQueryString
+_0xc11a('0x7fb') = onSessionReturn
+_0xc11a('0x7fc') = onLogin
 _0xc11a('0x7fd') = loadApp
 _0xc11a('0x7fe') = eventAll
 _0xc11a('0x7ff') = CommonDeviceAttributes
