@@ -1957,6 +1957,7 @@ _0xc11a('0x78d') = settingsServerButton
 _0xc11a('0x78e') = settingsUsersButton
 _0xc11a('0x78f') = settingsUserButton
 
+_0xc11a('0x7ac') = showReportsButton
     _0xc11a('0x7b0') = 'showEvents', 
     _0xc11a('0x7b1') = '../../config/config.json', 
     _0xc11a('0x7b2') = 'Traccar.view.MegaMenu', 
