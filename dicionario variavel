@@ -992,8 +992,8 @@ _0xc11a('0x399') = autocomplete=\x22on\x22\x20autocapitalize=\x22none\x22
 _0xc11a('0x39a') = checkboxfield
 _0xc11a('0x39b') = userRemember
 _0xc11a('0x39c') = component
-_0xc11a('0x39d') =
-_0xc11a('0x39e') =
+_0xc11a('0x39d') = '<iframe id=\"submitTarget\" name=\"submitTarget\" style=\"display:none\"></iframe>'
+_0xc11a('0x39e') = '<input type=\"submit\" id=\"submitButton\" style=\"display:none\">'
 _0xc11a('0x39f') = loginLogin
 _0xc11a('0x3a0') = onLoginClick
 _0xc11a('0x3a1') = Traccar.view.MainController
